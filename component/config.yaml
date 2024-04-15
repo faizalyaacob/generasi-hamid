@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    generasihamid:
+      email: jalpejal74123@gmail.com
+      failed_login_attempts: 5 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Generasi Hamid
+      password: hamid # Will be hashed automatically
+    cucuhamid:
+      email: suhailahjg@gmail.com
+      failed_login_attempts: 5 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Cucu Hamid
+      password: cucuhamid123 # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: generasihamid # Must be string
+  name: keluarga_hamid
+pre-authorized:
+  emails:
+  - jalpejal74123@gmail.com
